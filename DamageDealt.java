@@ -12,9 +12,7 @@ public class DamageDealt {
         System.out.println("   ");
         System.out.println("What is the name of the monster?");
         String monsterName = myScanner.nextLine();
-        System.out.println("   ");
-        System.out.println("How many times will you attack it?");
-        int attackNumber = myScanner.nextInt();
+        System.out.println(monsterName);
     }
 
 }
