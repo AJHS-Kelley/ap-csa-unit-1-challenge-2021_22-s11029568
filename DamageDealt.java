@@ -1,4 +1,4 @@
-// Maxximus Secrest, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/20/2021>, <9:18>, v1.5
+// Maxximus Secrest, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/20/2021>, <9:19>, v2,0
 import java.util.Scanner;
 
 public class DamageDealt {
@@ -12,6 +12,9 @@ public class DamageDealt {
         System.out.println("   ");
         System.out.println("What is the name of the monster?");
         String monsterName = myScanner.nextLine();
+        System.out.println("   ");
+        System.out.println("How many times will you attack it?");
+        int attackNumber = myScanner.nextInt();
     }
 
 }
