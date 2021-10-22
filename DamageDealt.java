@@ -1,11 +1,11 @@
-// Maxximus Secrest, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/22/2021>, <9:29>, v2.0 again
+// Maxximus Secrest, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/22/2021>, <9:31>, v2.5 
 // pear debugging by: robin/rachel macdonald (lol hi maxx)
 import java.util.Scanner;
 
 public class DamageDealt {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
-        System.out.println("MonsterName");
+        System.out.println("What is the monsters name?");
         String monsterName = myScanner.nextLine();
         System.out.print("\n");
         System.out.println("Please Enter the name of the weapon:");
@@ -16,7 +16,7 @@ public class DamageDealt {
         System.out.println("\n");
         System.out.println("How many attacks will you perform?");
         int attacknumber = myScanner.nextInt();
-    
+        
         
        
         
