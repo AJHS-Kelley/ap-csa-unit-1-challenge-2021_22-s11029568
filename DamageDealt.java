@@ -14,6 +14,7 @@ public class DamageDealt {
         System.out.println("What is the name of the monster?");
         String monsterName = myScanner.nextLine();
         System.out.println(monsterName);
+        // Does not accept input for monsterName when running.
     }
 
 }
