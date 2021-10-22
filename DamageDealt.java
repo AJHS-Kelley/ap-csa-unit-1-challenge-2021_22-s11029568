@@ -1,4 +1,4 @@
-// Maxximus Secrest, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/22/2021>, <9:31>, v2.5 
+// Maxximus Secrest, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/22/2021>, <9:34>, v3.0 
 // pear debugging by: robin/rachel macdonald (lol hi maxx)
 import java.util.Scanner;
 
@@ -16,6 +16,8 @@ public class DamageDealt {
         System.out.println("\n");
         System.out.println("How many attacks will you perform?");
         int attacknumber = myScanner.nextInt();
+        double totaldamage = weaponDamage * attacknumber;
+        
         
         
        
