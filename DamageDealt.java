@@ -1,4 +1,5 @@
 // Maxximus Secrest, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/20/2021>, <9:19>, v2,0
+// Peer debugging by Connor
 import java.util.Scanner;
 
 public class DamageDealt {
