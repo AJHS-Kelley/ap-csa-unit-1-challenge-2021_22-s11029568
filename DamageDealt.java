@@ -1,4 +1,4 @@
-// Maxximus Secrest, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/26/2021>, <8:17>, v4.0 
+// Maxximus Secrest, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/26/2021>, <8:20>, v4.5
 // pear debugging by: robin/rachel macdonald (lol hi maxx)
 import java.util.Scanner;
 
@@ -18,6 +18,8 @@ public class DamageDealt {
         System.out.print(" to " + monsterName);
         System.out.print(" using " + weaponName);
         double dps = totaldamage / 4;
+        System.out.print("You dealt " + dps);
+        System.out.print(" damage per second!");
 
         
         
