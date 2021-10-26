@@ -7,16 +7,17 @@ public class DamageDealt {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("What is the monsters name?");
         String monsterName = myScanner.nextLine();
-        System.out.print("\n");
-        System.out.println("Please Enter the name of the weapon:");
+        System.out.println("\nPlease Enter the name of the weapon:");
         String weaponName = myScanner.nextLine();
-        System.out.println("   ");
-        System.out.println("Please enter the damage value of the weapon");
+        System.out.println("\nPlease enter the damage value of the weapon");
         double weaponDamage = myScanner.nextDouble();
-        System.out.println("\n");
-        System.out.println("How many attacks will you perform?");
+        System.out.println("\nHow many attacks will you perform?");
         int attacknumber = myScanner.nextInt();
         double totaldamage = weaponDamage * attacknumber;
+        System.out.print("You dealt " + totaldamage);
+        System.out.print(" to " + monsterName);
+        System.out.print(" using " + weaponName);
+
         
         
         
