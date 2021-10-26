@@ -20,6 +20,7 @@ public class DamageDealt {
         double dps = totaldamage / 4;
         System.out.print("You dealt " + dps);
         System.out.print(" damage per second!");
+        System.out.print("This round lasted 4 seconds");
 
         
         
